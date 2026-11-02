@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALGO Express LLC — Freight &amp; Trucking | Atlanta, GA</title>
+<meta name="description" content="ALGO Express LLC is a Georgia-based freight carrier serving the Southeast and Midwest with flatbed, step deck, dry van, and reefer service.">
+<style>
+  :root{
+    --navy:#0b2447; --navy2:#123a6b; --gold:#c9a227; --gold2:#e3c766;
+    --ink:#1c2430; --muted:#5b6775; --bg:#f4f6f8; --white:#ffffff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.6;background:var(--white)}
+  a{color:var(--navy2)}
+  header{position:sticky;top:0;z-index:10;background:var(--navy);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+  .nav{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:10px 20px}
+  .nav img{height:52px;width:auto}
+  .nav .brand{font-weight:800;letter-spacing:.5px;font-size:1.15rem;line-height:1.1}
+  .nav .brand small{display:block;font-weight:500;font-size:.8rem;color:#cdd7e4;letter-spacing:1.5px}
+  .nav nav{margin-left:auto;display:flex;gap:18px;flex-wrap:wrap}
+  .nav nav a{color:#fff;text-decoration:none;font-weight:600;font-size:.95rem}
+  .nav nav a:hover{color:var(--gold2)}
+  .hero{position:relative;color:#fff;overflow:hidden}
+  .hero img.bg{width:100%;height:520px;object-fit:cover;display:block;filter:brightness(.55)}
+  .hero .inner{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;max-width:1100px;margin:0 auto;padding:0 20px}
+  .hero h1{font-size:2.6rem;line-height:1.15;margin:0 0 10px;max-width:640px}
+  .hero p{font-size:1.15rem;max-width:620px;margin:0 0 22px;color:#e8edf3}
+  .btn{display:inline-block;background:var(--gold);color:#14213d;text-decoration:none;font-weight:800;padding:12px 22px;border-radius:6px;margin-right:10px}
+  .btn:hover{background:var(--gold2)}
+  .btn.ghost{background:transparent;color:#fff;outline:2px solid #fff}
+  .btn.ghost:hover{background:rgba(255,255,255,.15)}
+  .strip{background:var(--gold);color:#14213d}
+  .strip .row{max-width:1100px;margin:0 auto;padding:14px 20px;display:flex;gap:32px;flex-wrap:wrap;font-weight:700}
+  .strip span{white-space:nowrap}
+  section{max-width:1100px;margin:0 auto;padding:56px 20px}
+  section h2{font-size:1.9rem;margin:0 0 6px;color:var(--navy);border-bottom:3px solid var(--gold);padding-bottom:8px;display:inline-block}
+  section .lede{color:var(--muted);max-width:760px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:28px}
+  .card{background:var(--bg);border-radius:10px;padding:22px;border-top:4px solid var(--navy)}
+  .card h3{margin:0 0 6px;color:var(--navy)}
+  .card p{margin:0;color:var(--muted)}
+  .fleet{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:28px;align-items:start}
+  .fleet figure{margin:0}
+  .fleet img,.fleet video{width:100%;border-radius:10px;display:block}
+  .fleet figcaption{color:var(--muted);font-size:.9rem;margin-top:8px}
+  .trust{display:flex;gap:28px;align-items:center;background:var(--bg);border-radius:10px;padding:22px;margin-top:28px;flex-wrap:wrap}
+  .trust img{width:280px;max-width:100%;border-radius:8px}
+  .careers{background:var(--navy);color:#fff;border-radius:12px;padding:32px;margin-top:28px}
+  .careers h3{margin-top:0;color:var(--gold2)}
+  .careers ul{margin:0 0 18px;padding-left:20px}
+  .careers a{color:var(--gold2)}
+  .contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:28px}
+  .contact-grid .box{background:var(--bg);border-radius:10px;padding:22px}
+  .contact-grid .box b{display:block;color:var(--navy);margin-bottom:4px}
+  footer{background:var(--navy);color:#cdd7e4;text-align:center;padding:24px 20px;font-size:.9rem}
+  footer b{color:#fff}
+  @media (max-width:700px){
+    .hero img.bg{height:420px}
+    .hero h1{font-size:1.9rem}
+    .fleet{grid-template-columns:1fr}
+    .nav nav{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <img src="assets/logo.png" alt="ALGO Express LLC logo">
+    <div class="brand">ALGO EXPRESS LLC<small>FREIGHT &amp; TRUCKING</small></div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#fleet">Fleet</a>
+      <a href="#careers">Careers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <img class="bg" src="assets/hero-semi.jpg" alt="Semi truck on the highway">
+  <div class="inner">
+    <h1>Freight moved right, across the Southeast &amp; Midwest.</h1>
+    <p>ALGO Express LLC is a Georgia-based carrier hauling flatbed, step deck, dry van, and reefer freight for shippers who need a dependable truck and a straight answer.</p>
+    <div>
+      <a class="btn" href="#contact">Get in Touch</a>
+      <a class="btn ghost" href="#careers">Drive With Us</a>
+    </div>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="row">
+    <span>MC-1656363</span>
+    <span>USDOT 4266729</span>
+    <span>SCAC: AELR</span>
+    <span>Based in the Atlanta, GA area</span>
+  </div>
+</div>
+
+<section id="services">
+  <h2>Services</h2>
+  <p class="lede">We run Southeast and Midwest lanes with the equipment to match the load — open deck, enclosed, and temperature-controlled.</p>
+  <div class="grid">
+    <div class="card"><h3>Flatbed</h3><p>Open-deck hauling for freight that needs room, securement, and careful handling.</p></div>
+    <div class="card"><h3>Step Deck</h3><p>Step deck service for taller freight that won't fit under a standard flatbed height.</p></div>
+    <div class="card"><h3>Dry Van</h3><p>Enclosed, weather-protected transport for general freight.</p></div>
+    <div class="card"><h3>Reefer</h3><p>Temperature-controlled transport for freight that has to stay on spec.</p></div>
+  </div>
+  <p class="lede" style="margin-top:24px">We work dedicated lanes and direct shipper partnerships across our service region. If you have recurring freight in the Southeast or Midwest, talk to us.</p>
+</section>
+
+<section id="fleet">
+  <h2>Our Fleet</h2>
+  <p class="lede">Late-model power and well-maintained trailers, run by drivers who take care of the freight.</p>
+  <div class="fleet">
+    <figure>
+      <img src="assets/step-deck.jpg" alt="Step deck trailer loaded with equipment">
+      <figcaption>Step deck trailer loaded and secured</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/fleet-yard.jpg" alt="Fleet of trucks with dry van and reefer trailers">
+      <figcaption>Dry van and reefer trailers ready to roll</figcaption>
+    </figure>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>2025 Freightliner Cascadia</h3><p>Our featured power unit, paired with the step deck trailer.</p></div>
+    <div class="card"><h3>2026 Fontaine 53' Step Deck</h3><p>Open-deck capacity for taller and oversized freight.</p></div>
+    <div class="card"><h3>Dry Van</h3><p>Enclosed trailers for weather-protected freight.</p></div>
+    <div class="card"><h3>Reefer Trailer</h3><p>Temperature-controlled trailers for cold-chain freight.</p></div>
+  </div>
+  <div class="trust">
+    <img src="assets/fleet-yard.jpg" alt="Fleet of trucks">
+    <div>
+      <h3 style="margin:0 0 6px;color:var(--navy)">A carrier you can verify</h3>
+      <p style="margin:0;color:var(--muted)">ALGO Express LLC operates under its own authority: MC-1656363, USDOT 4266729, SCAC AELR.</p>
+    </div>
+  </div>
+</section>
+
+<section id="careers">
+  <h2>Careers</h2>
+  <p class="lede">We're building a team of professional drivers and we'd like to hear from you.</p>
+  <div class="careers">
+    <h3>Now Hiring: Step Deck Drivers</h3>
+    <ul>
+      <li>30% of gross pay</li>
+      <li>$500 sign-on bonus</li>
+      <li>Home every other weekend</li>
+      <li>Southeast &amp; Midwest lanes</li>
+    </ul>
+    <p>To apply, download the application below, fill it out, and send it to us by email — or call or text us to get started.</p>
+    <p>
+      <a class="btn" href="assets/driver-application-fillable.pdf" download>Download Driver Application (PDF)</a>
+    </p>
+    <p>Email: <a href="mailto:algoexpressllc@gmail.com">algoexpressllc@gmail.com</a><br>
+    Call or text: <a href="tel:+14049131174">404-913-1174</a></p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="lede">Shippers, drivers, and partners — reach out and we'll get back to you.</p>
+  <div class="contact-grid">
+    <div class="box"><b>Phone</b><a href="tel:+14049131174">404-913-1174</a></div>
+    <div class="box"><b>Email</b><a href="mailto:algoexpressllc@gmail.com">algoexpressllc@gmail.com</a></div>
+    <div class="box"><b>Location</b>Atlanta / Stonecrest, GA area<br>Southeast &amp; Midwest lanes</div>
+  </div>
+</section>
+
+<footer>
+  <b>ALGO Express LLC</b> &nbsp;·&nbsp; Est. 2024 &nbsp;·&nbsp; MC-1656363 &nbsp;·&nbsp; USDOT 4266729 &nbsp;·&nbsp; SCAC AELR<br>
+  Atlanta / Stonecrest, GA area
+</footer>
+
+</body>
+</html>
